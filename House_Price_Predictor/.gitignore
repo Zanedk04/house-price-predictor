@@ -1,10 +1,28 @@
+# ---- Python ----
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# ---- Virtual environments ----
 .venv/
 venv/
+env/
+
+# ---- Jupyter ----
 .ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- Data + model artifacts (don’t commit these) ----
 datasets/
-*.tgz
 *.csv
+*.tgz
 *.joblib
+*.pkl
+
+# ---- OS junk ----
 .DS_Store
+Thumbs.db
+
+# ---- IDE/editor ----
+.vscode/
+.idea/
